@@ -1,14 +1,7 @@
 # mec-auto-login
 
-Medallia MEC/HTL 데모 계정 자동 로그인 매크로입니다.
-일정 기간 로그인하지 않으면 계정이 만료되는 문제를 방지하기 위해 GitHub Actions로 매일 자동 실행됩니다.
-
-## 대상 사이트
-
-| 이름 | URL |
-|------|-----|
-| MEC | https://cx-crflx.demo.sc4.medallia.com/cxmedallia/ |
-| HTL | https://htl-crflx.demo.sc4.medallia.com/htl/ |
+Medallia CX/HTL 데모 사이트 자동 로그인 매크로입니다.  
+일정 기간 로그인하지 않으면 데모 사이트가 만료되는 문제를 방지하기 위해 GitHub Actions로 매일 자동 실행됩니다.
 
 ## 실행 주기
 
