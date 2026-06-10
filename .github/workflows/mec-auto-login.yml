@@ -1,4 +1,4 @@
-name: mec-auto-login
+name: MEC 자동 로그인
 
 on:
   schedule:
