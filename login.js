@@ -4,10 +4,10 @@ const TIMEOUT = 20_000;
 
 const SITES = [
   {
-    name: 'MEC',
+    name: 'CX',
     url: 'https://cx-crflx.demo.sc4.medallia.com/cxmedallia/',
-    username: process.env.MEC_USERNAME,
-    password: process.env.MEC_PASSWORD,
+    username: process.env.CX_USERNAME,
+    password: process.env.CX_PASSWORD,
   },
   {
     name: 'HTL',

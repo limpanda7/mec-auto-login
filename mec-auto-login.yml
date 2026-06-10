@@ -26,8 +26,8 @@ jobs:
 
       - name: 로그인 실행
         env:
-          MEC_USERNAME: ${{ secrets.MEC_USERNAME }}
-          MEC_PASSWORD: ${{ secrets.MEC_PASSWORD }}
+          CX_USERNAME: ${{ secrets.CX_USERNAME }}
+          CX_PASSWORD: ${{ secrets.CX_PASSWORD }}
           HTL_USERNAME: ${{ secrets.HTL_USERNAME }}
           HTL_PASSWORD: ${{ secrets.HTL_PASSWORD }}
         run: node login.js
